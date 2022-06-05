@@ -9,6 +9,10 @@
     ],
     "repository": "https://github.com/KareemRS/heroku-lavalink.git",
     "env": {
+        "NGROK_API_TOKEN": {
+            "description": "https://dashboard.ngrok.com/get-started/your-authtoken.",
+            "value": "// your ngrok api token"
+        },
         "PASS": {
             "description": "The password you will use to authenticate http requests. Change this to whatever you want it to be.",
             "value": "youshallnotpass"
